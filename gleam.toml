@@ -6,12 +6,12 @@ repository = { type = "github", user = "horvathandris", repo = "wispie" }
 
 [dependencies]
 gleam_stdlib = ">= 1.0.3 and < 2.0.0"
-wisp = ">= 2.1.0 and < 3.0.0"
+wisp = ">= 2.2.2 and < 3.0.0"
 gleam_http = ">= 4.3.0 and < 5.0.0"
 contenty = ">= 1.1.0 and < 2.0.0"
-glam = ">= 2.0.3 and < 3.0.0"
+glam = ">= 2.0.4 and < 3.0.0"
 simplejson = ">= 2.0.0 and < 3.0.0"
 
 [dev-dependencies]
 gleeunit = ">= 1.0.0 and < 2.0.0"
-birdie = ">= 1.4.1 and < 2.0.0"
+birdie = ">= 2.0.1 and < 3.0.0"

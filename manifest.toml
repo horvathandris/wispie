@@ -10,7 +10,7 @@ packages = [
   { name = "argv", version = "1.1.0", build_tools = ["gleam"], requirements = [], otp_app = "argv", source = "hex", outer_checksum = "3277D100448BDB4A29B6D58C0F36F631CBC349E8BDD09766C6309DF202831140" },
   { name = "bigdecimal", version = "1.4.0", build_tools = ["gleam"], requirements = ["bigi", "gleam_stdlib"], otp_app = "bigdecimal", source = "hex", outer_checksum = "1727A26F1D166BF8FDD07B431E10CEFA7FE037014D649E6DEB870DF91EBAEE0C" },
   { name = "bigi", version = "4.1.1", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "bigi", source = "hex", outer_checksum = "44FEDF1DF5C1F426A80B67C32B976D0828D66524E11BDC2DD22B78D37C883BA7" },
-  { name = "birdie", version = "1.5.5", build_tools = ["gleam"], requirements = ["argv", "edit_distance", "envoy", "filepath", "glance", "gleam_community_ansi", "gleam_json", "gleam_stdlib", "global_value", "justin", "rank", "simplifile", "term_size", "tom", "trie_again"], otp_app = "birdie", source = "hex", outer_checksum = "ABB86B0FA88DABCDDE93EDF6921060BB74502A5B410C3F35960CD539EC98AD37" },
+  { name = "birdie", version = "2.0.1", build_tools = ["gleam"], requirements = ["argv", "edit_distance", "envoy", "filepath", "glance", "gleam_community_ansi", "gleam_json", "gleam_stdlib", "global_value", "justin", "rank", "simplifile", "term_size", "tom", "trie_again"], otp_app = "birdie", source = "hex", outer_checksum = "1A7923D57DFB63885F1EFBCD5ECE3E4A805FB680F9DFFDB5E85D64A05DD3A563" },
   { name = "contenty", version = "1.1.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "contenty", source = "hex", outer_checksum = "C168F00A72CCE585ACFD234923BD2A46E84A79276EA0F6B9DEF49D50BAC95491" },
   { name = "directories", version = "1.2.0", build_tools = ["gleam"], requirements = ["envoy", "gleam_stdlib", "platform", "simplifile"], otp_app = "directories", source = "hex", outer_checksum = "D13090CFCDF6759B87217E8DDD73A75903A700148A82C1D33799F333E249BF9E" },
   { name = "edit_distance", version = "3.0.1", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "edit_distance", source = "hex", outer_checksum = "DE588BC3483ED6DBA717211B59F3178891A5FC6F1C00D415AE8C4233EAFB94B1" },
@@ -53,11 +53,11 @@ packages = [
 ]
 
 [requirements]
-birdie = { version = ">= 1.4.1 and < 2.0.0" }
+birdie = { version = ">= 2.0.1 and < 3.0.0" }
 contenty = { version = ">= 1.1.0 and < 2.0.0" }
-glam = { version = ">= 2.0.3 and < 3.0.0" }
+glam = { version = ">= 2.0.4 and < 3.0.0" }
 gleam_http = { version = ">= 4.3.0 and < 5.0.0" }
 gleam_stdlib = { version = ">= 1.0.3 and < 2.0.0" }
 gleeunit = { version = ">= 1.0.0 and < 2.0.0" }
 simplejson = { version = ">= 2.0.0 and < 3.0.0" }
-wisp = { version = ">= 2.1.0 and < 3.0.0" }
+wisp = { version = ">= 2.2.2 and < 3.0.0" }
