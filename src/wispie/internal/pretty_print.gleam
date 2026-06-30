@@ -111,7 +111,11 @@ fn field_to_doc(field: #(String, jsonvalue.JsonValue)) -> doc.Document {
   |> doc.concat
 }
 
-fn parenthesise(doc: doc.Document, open: String, close: String) -> doc.Document {
+fn parenthesise(
+  doc: doc.Document,
+  open: String,
+  close: String,
+) -> doc.Document {
   doc
   |> doc.prepend_docs([doc.from_string(open), doc.space])
   |> doc.nest(by: 2)
