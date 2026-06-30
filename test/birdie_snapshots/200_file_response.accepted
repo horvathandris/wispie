@@ -1,11 +1,10 @@
 ---
-version: 1.4.1
+version: 2.0.1
 title: 200_file_response
 file: ./test/wispie_test.gleam
 test_name: response_to_string_200_file_response__test
 ---
 200
-
 
 Path: /some/path/to/file.txt
 Offset: 0
