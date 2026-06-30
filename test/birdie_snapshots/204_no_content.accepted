@@ -1,0 +1,7 @@
+---
+version: 2.0.1
+title: 204_no_content
+file: ./test/wispie_test.gleam
+test_name: response_to_string_204_no_content__test
+---
+204

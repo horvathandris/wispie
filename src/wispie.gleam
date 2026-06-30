@@ -11,6 +11,7 @@ import gleam/string
 import gleam/string_tree
 import wisp
 import wispie/internal/pretty_print
+import wispie/internal/string_tree_util
 
 /// Converts an HTTP `response.Response(wisp.Body)` into a human-readable string.
 ///
@@ -27,10 +28,8 @@ import wispie/internal/pretty_print
 pub fn response_to_string(response: response.Response(wisp.Body)) -> String {
   string_tree.new()
   |> string_tree.append(format_status(response.status))
-  |> string_tree.append("\n")
-  |> string_tree.append(format_headers(response.headers))
-  |> string_tree.append("\n\n")
-  |> string_tree.append(format_body(response))
+  |> string_tree_util.append_if_present("\n", format_headers(response.headers))
+  |> string_tree_util.append_if_present("\n\n", format_body(response))
   |> string_tree.to_string
 }
 

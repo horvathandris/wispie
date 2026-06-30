@@ -44,3 +44,11 @@ pub fn response_to_string_200_file_response__test() {
   |> wispie.response_to_string
   |> birdie.snap("200_file_response")
 }
+
+pub fn response_to_string_204_no_content__test() {
+  let response = wisp.response(204)
+
+  response
+  |> wispie.response_to_string
+  |> birdie.snap("204_no_content")
+}

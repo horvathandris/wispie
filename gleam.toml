@@ -1,5 +1,5 @@
 name = "wispie"
-version = "0.1.0"
+version = "0.1.1"
 description = "Render wisp HTTP responses into a human-readable representation"
 licences = ["Apache-2.0"]
 repository = { type = "github", user = "horvathandris", repo = "wispie" }
